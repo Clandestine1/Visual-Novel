@@ -1,0 +1,303 @@
+body { 
+	margin: 0; 
+	background-color: black;
+}
+
+#computer {
+	margin: 0;
+	position: relative;
+	right: 1%;
+	width: 100%;
+	height: 661.8px;
+	z-index: -4;
+}
+
+#computerLogo {
+	position: absolute;
+	font-size: 24px;
+	bottom: 3%;
+	word-spacing: 80px;
+	left: 42%;
+	z-index: 0;
+	font-family: 'Spirax', cursive;
+	font-weight: bolder;
+}
+
+/* Computer screen set to display none so it is invisble until power button is clicked */
+#computerScreen {
+	background-color: pink;
+	width: 1192.6px;
+	height: 527.6px;
+	position: absolute;
+	z-index: 0;
+	bottom:17.6%;
+	left: 3.1%;
+}
+
+#textBox {
+	position: absolute;
+	opacity: .9;
+	width: 1192.6px;
+	height: 200px;
+	background: linear-gradient(bottom, rgba(0,0,0,.8), rgba(98,0,0,.7), rgba(0,0,0,.8));
+    background: -webkit-linear-gradient(bottom, rgba(0,0,0,.8), rgba(98,0,0,.7), rgba(0,0,0,.8)); 
+	z-index: 0;
+	top: 62.1%;
+	color: white;
+}
+
+#text{
+	position: absolute;
+	width: auto;
+	height: auto; 
+	z-index: 0;
+	color: #FFE6E6;
+	opacity: 1;
+	font-family:'Press Start 2P', cursive;
+	line-height: 150%;
+	font-size: 20px;
+}
+
+.altText{
+	position: absolute;
+	width: auto;
+	height: auto; 
+	z-index: 0;
+	color: #FFE6E6;
+	opacity: 1;
+	font-family:'Press Start 2P', cursive;
+	line-height: 150%;
+	font-size: 20px;
+	display: none;
+}
+
+.altText2{
+	position: absolute;
+	width: auto;
+	height: auto; 
+	z-index: 0;
+	color: #FFE6E6;
+	opacity: 1;
+	font-family:'Press Start 2P', cursive;
+	line-height: 150%;
+	font-size: 20px;
+	display: none;
+}
+
+.altText3{
+	position: absolute;
+	width: auto;
+	height: auto; 
+	z-index: 0;
+	color: #FFE6E6;
+	opacity: 1;
+	font-family:'Press Start 2P', cursive;
+	line-height: 150%;
+	font-size: 20px;
+	display: none;
+}
+
+.altText4{
+	position: absolute;
+	width: auto;
+	height: auto; 
+	z-index: 0;
+	color: #FFE6E6;
+	opacity: 1;
+	font-family:'Press Start 2P', cursive;
+	line-height: 150%;
+	font-size: 20px;
+	display: none;
+}
+
+.next {
+	position: absolute;
+	top: 90%;
+	right: 0;
+	background-color: #370000;
+    border: 5% black;
+    border-radius: 7px;
+    color: #EEDAEC;
+    margin-left: 4%;
+    margin-right: 4%;
+    text-align: center;
+    text-decoration: none;
+  	padding: 2px 44px 2px 44px;
+    font-size: 18px;
+ 	font-family: 'BioRhyme', serif;
+  	font-weight: bolder;
+  	box-shadow: 3px 3px 2px black;
+  	border: none;
+  	z-index: 0;
+}
+
+.next2 {
+	position: absolute;
+	top: 90%;
+	right: 0;
+	background-color: #370000;
+    border: 5% black;
+    border-radius: 7px;
+    color: #EEDAEC;
+    margin-left: 4%;
+    margin-right: 4%;
+    text-align: center;
+    text-decoration: none;
+  	padding: 2px 44px 2px 44px;
+    font-size: 18px;
+ 	font-family: 'BioRhyme', serif;
+  	font-weight: bolder;
+  	box-shadow: 3px 3px 2px black;
+  	border: none;
+  	z-index: 0;
+}
+
+.next3 {
+	position: absolute;
+	top: 90%;
+	right: 0;
+	background-color: #370000;
+    border: 5% black;
+    border-radius: 7px;
+    color: #EEDAEC;
+    margin-left: 4%;
+    margin-right: 4%;
+    text-align: center;
+    text-decoration: none;
+  	padding: 2px 44px 2px 44px;
+    font-size: 18px;
+ 	font-family: 'BioRhyme', serif;
+  	font-weight: bolder;
+  	box-shadow: 3px 3px 2px black;
+  	border: none;
+  	z-index: 0;
+}
+
+#choice1{
+	position: absolute;
+	top: 108%;
+	left: 0;
+	background-color: #370000;
+    border: 5% black;
+    border-radius: 7px;
+    color: #EEDAEC;
+    margin-left: 4%;
+    margin-right: 4%;
+    text-align: center;
+    text-decoration: none;
+  	padding: 2px 44px 2px 44px;
+    font-size: 18px;
+ 	font-family: 'BioRhyme', serif;
+  	font-weight: bolder;
+  	box-shadow: 3px 3px 2px black;
+  	border: none;
+  	z-index: 0;
+}
+
+#choice2{
+	position: absolute;
+	top: 108%;
+	right: 0;
+	background-color: #370000;
+    border: 5% black;
+    border-radius: 7px;
+    color: #EEDAEC;
+    margin-left: 4%;
+    margin-right: 4%;
+    text-align: center;
+    text-decoration: none;
+  	padding: 2px 44px 2px 44px;
+    font-size: 18px;
+ 	font-family: 'BioRhyme', serif;
+  	font-weight: bolder;
+  	box-shadow: 3px 3px 2px black;
+  	border: none;
+  	z-index: 0;
+}
+
+#powerUp {
+	position: absolute;
+	bottom: 2%;
+	background-color: #5D4B5C;
+    border: 5% black;
+    border-radius: 7px;
+    color: #EEDAEC;
+    margin-left: 4%;
+    margin-right: 4%;
+    text-align: center;
+    text-decoration: none;
+  	padding: 2px 44px 2px 44px;
+    font-size: 28px;
+ 	font-family: 'BioRhyme', serif;
+  	font-weight: bolder;
+  	box-shadow: 3px 3px 2px black;
+  	border: none;
+  	z-index: 0;
+}
+
+#helpMenu {
+	position: absolute;
+	bottom: 2%; 
+	left: 70%;
+	background-color: #5D4B5C;
+    border: 5% black;
+    border-radius: 7px;
+    color: #EEDAEC;
+    margin-left: 4%;
+    margin-right: 4%;
+    text-align: center;
+    text-decoration: none;
+  	padding: 2px 44px 2px 44px;
+    font-size: 28px;
+ 	font-family: 'BioRhyme', serif;
+  	font-weight: bolder;
+  	box-shadow: 3px 3px 2px black;
+  	z-index: 0;
+}
+
+/*Makes the modal visable upon clicking the button*/
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  visibility: hidden;
+  opacity: 0;
+
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+/*Stylings for the modal popup*/
+.popup {
+  left: 20px;
+  margin: 10px auto;
+  background: #EEEAE9;
+  background-image: url('Images/static.gif');
+  border-radius: 2px;
+  width: 94%;
+  position: absolute;
+  font-family: 'BioRhyme', serif;
+  font-size: 34px;
+  color: white;
+  z-index: 4;
+  border: 7px solid grey;
+  text-align: center;
+  padding-bottom: 1%;
+}
+
+/*Close button for modal*/
+.popup .close {
+  position: absolute;
+  font-size: 84px;
+  top: 4px;
+  right: 24px;
+  opacity: .7;
+  color: red;
+  text-decoration: none;
+}
+
+

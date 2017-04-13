@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>It Follows</title>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=BioRhyme|Spirax" rel="stylesheet">
+<script src="main.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+</head>
+<body>
+
+<!-- Background image of computer/ div for Boss Shauna logo on computer/ div for computer screen/ div for text box -->
+<center> <div> 
+<img id="computer" src="Images/Comp.png"> 
+<div id="computerLogo"> Boss Shauna </div> 
+<div id="computerScreen">
+	<div id="textBox"> 
+		<div id="text"> 
+		When you joined Binary Assembly you had no idea how many all-nighters you'd pull to finish the massive amounts of work. Tonight was different, only because it was the day before you present your final project. You are debating about staying at Binary Assembly until after closing time to perfect your project. 
+		<button class="next">Next</button> 
+		</div>
+<!-- Alt text in game is hidden until corresponding button is clicked -->
+		<div class="altText"> 
+		You hesitate as you think about the rumors you've heard during your time here. You've heard many rumors ranging from alien abduction to a crazed former student that stalks the halls at night. The point is- no one stays after closing. Tonight you're... 
+		<button id="choice1"> Staying </button> 
+		<button id="choice2"> Going Home </button> 
+		</div>
+
+		<div class="altText2">
+			
+		</div>
+
+		<div class="altText3">
+		You dread the long train ride home. The walk to the train station is eerily quiet. The always bustling 6 train station is deserted. You feel like you are being watched as you step onto the train platform. You turn around and see no one yet can't shake that awful feeling. 
+		<button class="next2">Next</button>
+		</div>
+
+		<div class="altText4">
+		The train is empty, you breathe a sigh of relief. Just before the doors close at the next stop, an enigmatic man boards the train. You can't see his face, but you can see his clothes are stained with an unknown substance. A repugnent stench fills the air, making you cover your nose before you gag.
+		<button class="next3">Next</button>
+		</div>
+
+		<div class="altText5">
+		
+		</div>
+	 </div>	
+</div>
+
+
+</div> </center>
+<!-- Button to turn computer on and button for instructions to pop up -->
+<button id="powerUp" type="button"> Power </button>
+
+<!-- Modal that pops up a new window overlay that displays the instructions -->
+<a id="helpMenu" href="#modal" type="button"> Instructions </a>
+<div id="modal" class="overlay">
+	<div class="popup">
+		<a class="close" href="#">&times;</a>
+		<div class="content">
+			<h3>Summary</h3>
+			During finals week at Binary Assembly you decide to ignore the rumors and stay after 10PM to finish your project. Will you escape or forever be followed by it?
+			<h3>Instructions</h3> 
+			You dictate the fate of your overnight stay at Binary Assembly. Throughout the game you will be asked to make a choice- think carefully and maybe you'll make it out alive.
+		</div>
+	</div>
+</div>
+<!-- Song plays automatically after the page loads -->
+<audio id="soundtrack" autoplay>
+	<source src="Music/Ambient.mp3" type="audio/mp3">
+</audio>
+
+<script src="main.js"></script>
+<script src="jquery.js"></script>
+<script src="typed.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+</body>
+
+</html>
