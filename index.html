@@ -18,14 +18,23 @@
 <img id="computer" src="Images/Comp.png"> 
 <div id="computerLogo"> Boss Shauna </div> 
 <div id="computerScreen">
+
+<!-- Images that show after an on click event -->
+<img class="image1" src="Images/subway.jpg"> 
+<img class="image2" src="Images/bloodyman.jpg">
+<img class="image3" src="Images/ba.jpg">
+<img class="image4" src="Images/jeffthekiller.jpg">
+<img class="image5" src="Images/crash.jpg">
+<img class="image6" src="Images/six.jpg">
+
 	<div id="textBox"> 
 		<div id="text"> 
-		When you joined Binary Assembly you had no idea how many all-nighters you'd pull to finish the massive amounts of work. Tonight was different, only because it was the day before you present your final project. You are debating about staying at Binary Assembly until after closing time to perfect your project. 
+		When you joined Binary Assembly you had no idea how many all-nighters you'd pull to finish the massive amounts of work. Tonight is different, only because it is the night before you present your final project. You are debating about staying at Binary Assembly until after closing time to perfect your project. 
 		<button class="next">Next</button> 
 		</div>
 <!-- Alt text in game is hidden until corresponding button is clicked -->
 		<div class="altText"> 
-		You hesitate as you think about the rumors you've heard during your time here. You've heard many rumors ranging from alien abduction to a crazed former student that stalks the halls at night. The point is- no one stays after closing. Tonight you're... 
+		You hesitate as you think about the rumors you've heard during your time here. You've heard many rumors ranging from random alien abduction to a crazed former student that stalks the halls at night. The point is- no one stays after closing. Tonight you're... 
 		<button id="choice1"> Staying </button> 
 		<button id="choice2"> Going Home </button> 
 		</div>
@@ -35,18 +44,61 @@
 		</div>
 
 		<div class="altText3">
-		You dread the long train ride home. The walk to the train station is eerily quiet. The always bustling 6 train station is deserted. You feel like you are being watched as you step onto the train platform. You turn around and see no one yet can't shake that awful feeling. 
+		You dread the long train ride home. The walk to the train station is eerily quiet. The always bustling 6 train station is deserted. You feel like you are being watched as you step onto the train platform. You turn around and see no one yet can't shake that awful feeling. The train is empty, you breathe a sigh of relief.
 		<button class="next2">Next</button>
 		</div>
 
 		<div class="altText4">
-		The train is empty, you breathe a sigh of relief. Just before the doors close at the next stop, an enigmatic man boards the train. You can't see his face, but you can see his clothes are stained with an unknown substance. A repugnent stench fills the air, making you cover your nose before you gag.
+		 Just before the doors close at the next stop, an enigmatic man boards the train. The man has his back towards you, making it impossible to see his face. You can only see that his clothes are stained with an unknown reddish substance. A repugnent stench fills the air, you cover your nose before you gag.
 		<button class="next3">Next</button>
 		</div>
 
 		<div class="altText5">
-		
+		The train lights flicker on and off as the train comes to a screeching halt. In the fleeting moment that you took your eyes off the strange man, he had pulled the emergency brake. The man walks toward you with his head bowed down towards the floor, you still can't see his face and you never want to see his face.  
+		<button class="next4">Next</button>
 		</div>
+
+		<div class="altText6">
+		You back up until you hit the emergency exit door. Without taking yours eyes off him, you try to open the door. The door is locked tight. You curse, rummaging in your pockets for your cellphone. The train lights go off for good leaving you in the dark. You use your phone as a light source. 
+		<button class="next5">Next</button>
+		</div>
+
+		<div class="altText7">
+		 The train car is so dark that you can't see more than three feet in front of you. Your nose is being increasingly assulted by the foul stench reeking off of this man. Though you can't see, you can certainly smell his approach. Having no time to think, you... 
+		<button id="choice3"> Call 911 </button> 
+		<button id="choice4"> Stand Your Ground </button> 
+		</div>
+
+		<div class="altText8">
+		You dial 911, hastily. You put the call on speakerphone so that you are still able to look for the appproaching man. In the overwhelming darkness you see something reflect off of your dim phone light. You try to figure out what it could be when it reveals itself... 
+		<button class="next6">Next</button>
+		</div>
+
+		<div class="altText9">                                                                      
+	    BAD END
+
+		</div>
+
+		<div class="altText10">
+		You're ready to confront him. You wait for him to make a move, but he never does. Soon the lights turn back on, revealing that you are alone on the train. You breathe a sigh of relief. The lack of sleep made you start to imagine things. You make a mental note to sleep more when you're launched in the air as the train crashes. 
+		<button class="next7">Next</button>
+		</div>
+
+		<div class="altText11">                                                                      
+	    BAD END
+
+		</div>
+
+		<div class="altText12">
+		Screw the rumors. You are so close to finishing your project, you can't leave now. You work through the night, losing track of time. You yawn, resting your eyes for several seconds. When you open your eyes, the trail of droll on your cheek hints that you were sleeping. You check your watch. It's 10PM.
+		<button class="next8">Next</button>
+		</div>
+
+		<div class="altText13">
+		Screw the rumors. You are so close to finishing your project, you can't leave now. You work through the night, losing track of time. You yawn, resting your eyes for several seconds. When you open your eyes, the trail of droll on your cheek hints that you were sleeping. You check your watch. It's 10PM.
+		<button class="next9">Next</button>
+		</div>
+
 	 </div>	
 </div>
 
@@ -67,11 +119,26 @@
 			You dictate the fate of your overnight stay at Binary Assembly. Throughout the game you will be asked to make a choice- think carefully and maybe you'll make it out alive.
 		</div>
 	</div>
-</div>
+</div> 
+
+
 <!-- Song plays automatically after the page loads -->
 <audio id="soundtrack" autoplay>
-	<source src="Music/Ambient.mp3" type="audio/mp3">
+	<source src="/Ambient.mp3" type="audio/mp3">
 </audio>
+
+<audio id="soundtrack2">
+	<source src="Music/Brake.mp3" type="audio/mp3">
+</audio>
+
+<audio id="soundtrack3">
+	<source src="Music/jump1.mp3" type="audio/mp3">
+</audio>
+
+<audio id="soundtrack4">
+	<source src="Music/train.mp3" type="audio/mp3">
+</audio>
+
 
 <script src="main.js"></script>
 <script src="jquery.js"></script>

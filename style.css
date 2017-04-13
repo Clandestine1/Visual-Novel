@@ -25,11 +25,11 @@ body {
 
 /* Computer screen set to display none so it is invisble until power button is clicked */
 #computerScreen {
-	background-color: pink;
+	background-color: black;
 	width: 1192.6px;
 	height: 527.6px;
 	position: absolute;
-	z-index: 0;
+
 	bottom:17.6%;
 	left: 3.1%;
 }
@@ -41,7 +41,7 @@ body {
 	height: 200px;
 	background: linear-gradient(bottom, rgba(0,0,0,.8), rgba(98,0,0,.7), rgba(0,0,0,.8));
     background: -webkit-linear-gradient(bottom, rgba(0,0,0,.8), rgba(98,0,0,.7), rgba(0,0,0,.8)); 
-	z-index: 0;
+	z-index: 1;
 	top: 62.1%;
 	color: white;
 }
@@ -50,7 +50,7 @@ body {
 	position: absolute;
 	width: auto;
 	height: auto; 
-	z-index: 0;
+	z-index: 1;
 	color: #FFE6E6;
 	opacity: 1;
 	font-family:'Press Start 2P', cursive;
@@ -58,7 +58,7 @@ body {
 	font-size: 20px;
 }
 
-.altText{
+.altText {
 	position: absolute;
 	width: auto;
 	height: auto; 
@@ -71,7 +71,7 @@ body {
 	display: none;
 }
 
-.altText2{
+.altText2 {
 	position: absolute;
 	width: auto;
 	height: auto; 
@@ -84,7 +84,7 @@ body {
 	display: none;
 }
 
-.altText3{
+.altText3 {
 	position: absolute;
 	width: auto;
 	height: auto; 
@@ -97,7 +97,113 @@ body {
 	display: none;
 }
 
-.altText4{
+.altText4 {
+	position: absolute;
+	width: auto;
+	height: auto; 
+	z-index: 0;
+	color: #FFE6E6;
+	opacity: 1;
+	font-family:'Press Start 2P', cursive;
+	line-height: 150%;
+	font-size: 20px;
+	display: none;
+}
+
+.altText5 {
+	position: absolute;
+	width: auto;
+	height: auto; 
+	z-index: 0;
+	color: #FFE6E6;
+	opacity: 1;
+	font-family:'Press Start 2P', cursive;
+	line-height: 150%;
+	font-size: 20px;
+	display: none;
+}
+
+.altText6 {
+	position: absolute;
+	width: auto;
+	height: auto; 
+	z-index: 0;
+	color: #FFE6E6;
+	opacity: 1;
+	font-family:'Press Start 2P', cursive;
+	line-height: 150%;
+	font-size: 20px;
+	display: none;
+}
+
+.altText7 {
+	position: absolute;
+	width: auto;
+	height: auto; 
+	z-index: 0;
+	color: #FFE6E6;
+	opacity: 1;
+	font-family:'Press Start 2P', cursive;
+	line-height: 150%;
+	font-size: 20px;
+	display: none;
+}
+
+.altText8 {
+	position: absolute;
+	width: auto;
+	height: auto; 
+	z-index: 0;
+	color: #FFE6E6;
+	opacity: 1;
+	font-family:'Press Start 2P', cursive;
+	line-height: 150%;
+	font-size: 20px;
+	display: none;
+}
+
+.altText9 {
+	position: absolute;
+	width: auto;
+	height: auto; 
+	z-index: 0;
+	color: #FFE6E6;
+	opacity: 1;
+	font-family:'Press Start 2P', cursive;
+	line-height: 150%;
+	font-size: 80px;
+	text-align: center;
+	display: none;
+}
+
+.altText10 {
+	position: absolute;
+	width: auto;
+	height: auto; 
+	z-index: 0;
+	color: #FFE6E6;
+	opacity: 1;
+	font-family:'Press Start 2P', cursive;
+	line-height: 150%;
+	font-size: 20px;
+	display: none;
+}
+
+.altText11 {
+	position: absolute;
+	width: auto;
+	height: auto; 
+	z-index: 0;
+	color: #FFE6E6;
+	opacity: 1;
+	font-family:'Press Start 2P', cursive;
+	line-height: 150%;
+	font-size: 80px;
+	text-align: center;
+	display: none;
+}
+
+.altText12 {
 	position: absolute;
 	width: auto;
 	height: auto; 
@@ -173,7 +279,112 @@ body {
   	z-index: 0;
 }
 
-#choice1{
+.next4 {
+	position: absolute;
+	top: 90%;
+	right: 0;
+	background-color: #370000;
+    border: 5% black;
+    border-radius: 7px;
+    color: #EEDAEC;
+    margin-left: 4%;
+    margin-right: 4%;
+    text-align: center;
+    text-decoration: none;
+  	padding: 2px 44px 2px 44px;
+    font-size: 18px;
+ 	font-family: 'BioRhyme', serif;
+  	font-weight: bolder;
+  	box-shadow: 3px 3px 2px black;
+  	border: none;
+  	z-index: 0;
+}
+
+.next5 {
+	position: absolute;
+	top: 90%;
+	right: 0;
+	background-color: #370000;
+    border: 5% black;
+    border-radius: 7px;
+    color: #EEDAEC;
+    margin-left: 4%;
+    margin-right: 4%;
+    text-align: center;
+    text-decoration: none;
+  	padding: 2px 44px 2px 44px;
+    font-size: 18px;
+ 	font-family: 'BioRhyme', serif;
+  	font-weight: bolder;
+  	box-shadow: 3px 3px 2px black;
+  	border: none;
+  	z-index: 0;
+}
+
+.next6 {
+	position: absolute;
+	top: 90%;
+	right: 0;
+	background-color: #370000;
+    border: 5% black;
+    border-radius: 7px;
+    color: #EEDAEC;
+    margin-left: 4%;
+    margin-right: 4%;
+    text-align: center;
+    text-decoration: none;
+  	padding: 2px 44px 2px 44px;
+    font-size: 18px;
+ 	font-family: 'BioRhyme', serif;
+  	font-weight: bolder;
+  	box-shadow: 3px 3px 2px black;
+  	border: none;
+  	z-index: 0;
+}
+
+.next7 {
+	position: absolute;
+	top: 90%;
+	right: 0;
+	background-color: #370000;
+    border: 5% black;
+    border-radius: 7px;
+    color: #EEDAEC;
+    margin-left: 4%;
+    margin-right: 4%;
+    text-align: center;
+    text-decoration: none;
+  	padding: 2px 44px 2px 44px;
+    font-size: 18px;
+ 	font-family: 'BioRhyme', serif;
+  	font-weight: bolder;
+  	box-shadow: 3px 3px 2px black;
+  	border: none;
+  	z-index: 0;
+}
+
+.next8 {
+	position: absolute;
+	top: 90%;
+	right: 0;
+	background-color: #370000;
+    border: 5% black;
+    border-radius: 7px;
+    color: #EEDAEC;
+    margin-left: 4%;
+    margin-right: 4%;
+    text-align: center;
+    text-decoration: none;
+  	padding: 2px 44px 2px 44px;
+    font-size: 18px;
+ 	font-family: 'BioRhyme', serif;
+  	font-weight: bolder;
+  	box-shadow: 3px 3px 2px black;
+  	border: none;
+  	z-index: 0;
+}
+
+#choice1 {
 	position: absolute;
 	top: 108%;
 	left: 0;
@@ -194,7 +405,49 @@ body {
   	z-index: 0;
 }
 
-#choice2{
+#choice2 {
+	position: absolute;
+	top: 108%;
+	right: 0;
+	background-color: #370000;
+    border: 5% black;
+    border-radius: 7px;
+    color: #EEDAEC;
+    margin-left: 4%;
+    margin-right: 4%;
+    text-align: center;
+    text-decoration: none;
+  	padding: 2px 44px 2px 44px;
+    font-size: 18px;
+ 	font-family: 'BioRhyme', serif;
+  	font-weight: bolder;
+  	box-shadow: 3px 3px 2px black;
+  	border: none;
+  	z-index: 0;
+}
+
+#choice3 {
+	position: absolute;
+	top: 108%;
+	left: 0;
+	background-color: #370000;
+    border: 5% black;
+    border-radius: 7px;
+    color: #EEDAEC;
+    margin-left: 4%;
+    margin-right: 4%;
+    text-align: center;
+    text-decoration: none;
+  	padding: 2px 44px 2px 44px;
+    font-size: 18px;
+ 	font-family: 'BioRhyme', serif;
+  	font-weight: bolder;
+  	box-shadow: 3px 3px 2px black;
+  	border: none;
+  	z-index: 0;
+}
+
+#choice4 {
 	position: absolute;
 	top: 108%;
 	right: 0;
@@ -270,6 +523,7 @@ body {
 .overlay:target {
   visibility: visible;
   opacity: 1;
+  z-index: 40;
 }
 /*Stylings for the modal popup*/
 .popup {
@@ -283,7 +537,7 @@ body {
   font-family: 'BioRhyme', serif;
   font-size: 34px;
   color: white;
-  z-index: 4;
+  z-index: 40;
   border: 7px solid grey;
   text-align: center;
   padding-bottom: 1%;
@@ -300,4 +554,61 @@ body {
   text-decoration: none;
 }
 
+.image1 {
+	position: absolute;
+	left: 0%;
+	top: 0%;
+	width: 1193px;
+	height: 528px;
+	z-index: 0;
+	display: none;
+}
 
+.image2 {
+	position: absolute;
+	left: 0%;
+	top: 0%;
+	width: 1193px;
+	height: 528px;
+	z-index: 0;
+	display: none;
+}
+
+.image3 {
+	position: absolute;
+	left: 0%;
+	top: 0%;
+	width: 1193px;
+	height: 528px;
+	z-index: 0;
+}
+
+.image4 {
+	position: absolute;
+	left: 0%;
+	top: 0%;
+	width: 1193px;
+	height: 528px;
+	z-index: 0;
+	display: none;
+}
+
+.image5 {
+	position: absolute;
+	left: 0%;
+	top: 0%;
+	width: 1193px;
+	height: 528px;
+	z-index: 0;
+	display: none;
+}
+
+.image6 {
+	position: absolute;
+	left: 0%;
+	top: 0%;
+	width: 1193px;
+	height: 528px;
+	z-index: 0;
+	display: none;
+}
