@@ -1,9 +1,8 @@
-/* Manipulates the dom to make the power button fade the computer screen
-in on click and back off with another click */
-
-
- 
-$(document).ready(function(){
+class Game {
+ 	constructor() {
+ 	}
+  restartGame() {
+ $(document).ready(function(){
     $("#powerUp").click(function(){
     $("#computerScreen").fadeToggle(4400);
     });
@@ -99,3 +98,14 @@ document.getElementById("soundtrack").volume = 0.2;
 document.getElementById("soundtrack2").volume = 0.6;
 document.getElementById("soundtrack3").volume = 1;
 document.getElementById("soundtrack4").volume = 1;
+}
+} 
+
+let Game = new Game();
+
+$(document).ready(function(){ 
+ $(".resets").click(function(){
+ 	Game.restartGame(location.reload());
+  });
+});
+
