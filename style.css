@@ -45,6 +45,7 @@ body {
 	color: white;
 }
 
+/* All game assets are set to display none until an onclick event happens */
 #text{
 	position: absolute;
 	width: auto;
@@ -576,7 +577,8 @@ body {
   	border: none;
   	z-index: 0;
 }
-
+/* Computer, power and instructions buttons are only
+ game assets that are always displayed on screen */
 #powerUp {
 	position: absolute;
 	bottom: 2%;
@@ -634,7 +636,7 @@ body {
   opacity: 1;
   z-index: 40;
 }
-/*Stylings for the modal popup*/
+/*Stylings for the istruction modal popup*/
 .popup {
   left: 20px;
   margin: 10px auto;
@@ -721,3 +723,110 @@ body {
 	z-index: 0;
 	display: none;
 }
+
+.image7 {
+	position: absolute;
+	left: 0%;
+	top: 0%;
+	width: 1193px;
+	height: 528px;
+	z-index: 0;
+	display: none;
+}
+
+.image8 {
+	position: absolute;
+	left: 0%;
+	top: 0%;
+	width: 1193px;
+	height: 528px;
+	z-index: 0;
+	display: none;
+}
+
+.image9 {
+	position: absolute;
+	left: 0%;
+	top: 0%;
+	width: 1193px;
+	height: 528px;
+	z-index: 0;
+	display: none;
+}
+
+.image10 {
+	position: absolute;
+	left: 0%;
+	top: 0%;
+	width: 1193px;
+	height: 528px;
+	z-index: 0;
+	display: none;
+}
+
+.image11 {
+	position: absolute;
+	left: 0%;
+	top: 0%;
+	width: 1193px;
+	height: 528px;
+	z-index: 0;
+	display: none;
+}
+
+.image12 {
+	position: absolute;
+	left: 0%;
+	top: 0%;
+	width: 1193px;
+	height: 528px;
+	z-index: 0;
+	display: none;
+}
+
+.image13 {
+	position: absolute;
+	left: 0%;
+	top: 0%;
+	width: 1193px;
+	height: 528px;
+	z-index: 0;
+	display: none;
+}
+
+.image14 {
+	position: absolute;
+	left: 0%;
+	top: 0%;
+	width: 1193px;
+	height: 528px;
+	z-index: 0;
+	display: none;
+}
+
+.image15 {
+	position: absolute;
+	left: 0%;
+	top: 0%;
+	width: 1193px;
+	height: 528px;
+	z-index: 0;
+	display: none;
+}
+
+.image16 {
+	position: absolute;
+	left: 0%;
+	top: 0%;
+	width: 1193px;
+	height: 528px;
+	z-index: 0;
+	display: none;
+}
+
+@media (min-width:320px)  {  }
+@media (min-width:481px)  {  }
+@media (min-width:641px)  {  }
+@media (min-width:961px)  {  }
+@media (min-width:1025px) {  }
+@media (min-width:1281px) {  }

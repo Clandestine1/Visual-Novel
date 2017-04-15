@@ -1,14 +1,13 @@
 /* Manipulates the dom to make the power button fade the computer screen
 in on click and back off with another click */
-
-
- 
 $(document).ready(function(){
     $("#powerUp").click(function(){
     $("#computerScreen").fadeToggle(4400);
     });
 
-  //Makes text div hidden and altText div appear when #next button is clicked  
+  /*All game assets are hidden until it is displayed via an onlick event. 
+  Every choice is linked to a button that triggers the onclick event when pressed
+  Buttons also are linked to images and sound to add to the game atmosphere*/ 
 $(".next").click(function(){
  	$(".altText").show();
  	$("#text").hide();
@@ -91,10 +90,19 @@ $(".next8").click(function(){
 $("#choice6").click(function(){
  	$(".altText14").show();
  	$(".altText13").hide();
+ 	$(".image3").fadeOut(3000);
+ 	$(".image13").fadeIn(3000);
+ 	$(".image13").fadeOut(6000);
+ 	$(".image13").hide(8000);
+ 	$(".image8").fadeIn(8000);
+ 	$(".image8").fadeOut(11000);
+ 	$(".image8").hide(13000);
+ 	$(".image7").fadeIn(13000);
+ ;
  	});
 });
 
-//Sets volume of audio
+//Sets volume of the audio
 document.getElementById("soundtrack").volume = 0.2;
 document.getElementById("soundtrack2").volume = 0.6;
 document.getElementById("soundtrack3").volume = 1;

@@ -1,3 +1,5 @@
+//Class that restarts the game using onclick event
+
 class Game {
  	constructor() {
  	}
