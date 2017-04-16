@@ -90,20 +90,40 @@ $(".next8").click(function(){
 $("#choice6").click(function(){
  	$(".altText14").show();
  	$(".altText13").hide();
- 	$(".image3").fadeOut(3000);
- 	$(".image13").fadeIn(3000);
- 	$(".image13").fadeOut(6000);
- 	$(".image13").hide(8000);
- 	$(".image8").fadeIn(8000);
- 	$(".image8").fadeOut(11000);
- 	$(".image8").hide(13000);
- 	$(".image7").fadeIn(13000);
- ;
+ 	$(".image8").fadeIn(3000);
+ 	$(".image8").fadeOut(7000);
+ 	$(".image8").hide(7000);;
+ 	$(".image7").fadeIn(11000);
+ 	document.getElementById("soundtrack5").play(4000);
  	});
+
+$(".next9").click(function(){
+	$(".altText15").show();
+ 	$(".altText14").hide();
+ 	$(".image7").fadeOut(2000);
+ 	$(".image13").fadeIn(2000);
+ 	$(".image17").show(6000);
+ 	$(".image17").slideUp(6000);
 });
 
+$("#choice5").click(function(){
+ 	$(".altText16").show();
+ 	$(".altText13").hide();
+ 	$(".image12").fadeIn(2000);
+ 	$(".image12").fadeOut(5000);
+ 	$(".image10").fadeIn(5000);
+ 	$(".image10").fadeOut(9000);
+ 	$(".image9").fadeIn(9000);
+ 	document.getElementById("soundtrack6").play(24000);
+ 	$(".image18").fadeIn(9000);
+ 	$(".image18").slideUp(14000);
+ 	});
+
 //Sets volume of the audio
-document.getElementById("soundtrack").volume = 0.2;
+document.getElementById("soundtrack").volume = 0.1;
 document.getElementById("soundtrack2").volume = 0.6;
 document.getElementById("soundtrack3").volume = 1;
 document.getElementById("soundtrack4").volume = 1;
+document.getElementById("soundtrack5").volume = 0.8;
+document.getElementById("soundtrack6").volume = 0.7;
+});
