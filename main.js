@@ -141,8 +141,27 @@ $(".next10").click(function(){
 $("#choice8").click(function(){
  	$(".altText19").show();
  	$(".altText16").hide();
- 	
- 	});
+ 	document.getElementById("soundtrack8").play(8000);
+ 	$(".image11").fadeIn(4000);
+ 	$(".image11").fadeOut(9000);
+ 	$(".image15").fadeIn(9000);
+});
+
+$(".next11").click(function(){
+	$(".altText20").show();
+ 	$(".altText19").hide();
+ 	$(".image22").fadeIn(4000);
+ 	document.getElementById("soundtrack9").play(1000);
+});
+
+$(".next12").click(function(){
+	$(".altText21").show();
+ 	$(".altText20").hide();
+ 	$(".image22").hide(2000);
+ 	$(".image23").fadeIn(2000);
+ 	$("#textBox").fadeIn(9400);
+ 	document.getElementById("soundtrack10").play(2000);
+});
 
 //Sets volume of the audio
 document.getElementById("soundtrack").volume = 0.1;
@@ -152,4 +171,7 @@ document.getElementById("soundtrack4").volume = 1;
 document.getElementById("soundtrack5").volume = 0.8;
 document.getElementById("soundtrack6").volume = 0.7;
 document.getElementById("soundtrack7").volume = 0.8;
+document.getElementById("soundtrack8").volume = 1;
+document.getElementById("soundtrack9").volume = 1;
+document.getElementById("soundtrack10").volume = 1;
 });

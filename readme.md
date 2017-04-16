@@ -17,6 +17,8 @@ There is one way to win, several ways to lose.
 
 You win by reaching the good ending. You lose by reaching any of the bad endings. 
 
+Headphones are required.
+
 ### Screenshot of Website
 ![](Wireframes/website.png)
 
