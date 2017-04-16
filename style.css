@@ -36,11 +36,12 @@ body {
 #textBox {
 	position: absolute;
 	opacity: .9;
-	width: 1193.6px;
+	width: 1194px;
 	height: 200px;
 	background: linear-gradient(bottom, rgba(0,0,0,.8), rgba(98,0,0,.7), rgba(0,0,0,.8));
     background: -webkit-linear-gradient(bottom, rgba(0,0,0,.8), rgba(98,0,0,.7), rgba(0,0,0,.8)); 
 	z-index: 1;
+	left: .4px;
 	top: 62.1%;
 	color: white;
 }
@@ -899,7 +900,7 @@ body {
 	width: auto;
 	height: auto;
 	top: 0;
-	left: 0;
+	right: 0;
 	z-index: 90;
 	opacity: .4;
 	display: none;

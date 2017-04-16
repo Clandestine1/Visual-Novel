@@ -1,5 +1,5 @@
 # It Follows
-###### A game of choices
+###### A game of choices by Shauna Walker
 
 ### About the Game
 This isn’t a game, this is an experience. When the player starts the game it will be black for a second until the page fades in. The start screen will have a computer with a conspicuous power button. When the power button is pressed the computer will turn on and thus the experience begins.
@@ -12,6 +12,10 @@ To restart the game the player will have to click the start over button that app
 
 ### Game Instructions
 You dictate the fate of your overnight stay at Binary Assembly. Throughout the game you will be asked to make a choice- think carefully and maybe you'll make it out alive.
+
+There is one way to win, several ways to lose.
+
+You win by reaching the good ending. You lose by reaching any of the bad endings. 
 
 ### Screenshot of Website
 ![](Wireframes/website.png)
@@ -54,10 +58,11 @@ Before I even thought about what code I was going to use, I decided to use the a
 ![](Wireframes/w2.JPG)
 ![](Wireframes/w1.JPG)
 
-After I completed my psuedo-code I brainstormed all the methods to accomplish my code. The method that I ended up picking was to load all my content in the document then manipulate it in the DOM using jQuery.
+After I completed my psuedo-code I brainstormed all the methods to accomplish my code. The method that I ended up picking was to load all my content in the document then manipulate it in the DOM using jQuery. I made sure to commit my changes to GitHub often.
 
 ###### Example
-```$(".next2").click(function(){
+```
+$(".next2").click(function(){
  	$(".altText4").show();
  	$(".altText3").hide();
  	});

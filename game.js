@@ -118,11 +118,9 @@ document.getElementById("soundtrack5").volume = 0.8;
 }
 } 
 
-let Game = new Game();
-
 $(document).ready(function(){ 
  $(".resets").click(function(){
- 	Game.restartGame(location.reload());
+ 	Game.restartGame(location.reload(true));
   });
 });
 
