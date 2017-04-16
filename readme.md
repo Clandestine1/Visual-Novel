@@ -51,9 +51,9 @@ Before I even thought about what code I was going to use, I decided to use the a
 >Sounds and images that are linked to onclick events
 
 ### Project Wireframes
-![](Wireframes/w3.jpg)
-![](Wireframes/w2.jpg)
-![](Wireframes/w1.jpg)
+![](Wireframes/w3.JPG)
+![](Wireframes/w2.JPG)
+![](Wireframes/w1.JPG)
 
 After I completed my psuedo-code I brainstormed all the methods to accomplish my code. The method that I ended up picking was to load all my content in the document then manipulate it in the DOM using jQuery.
 
