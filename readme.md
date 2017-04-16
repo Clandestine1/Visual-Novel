@@ -17,35 +17,8 @@ You dictate the fate of your overnight stay at Binary Assembly. Throughout the g
 ![](http://imgur.com/YdQRHyV)
 
 [Link to Website](https://clandestine1.github.io/Visual_Novel/)
+
 [Link to Repository](https://github.com/Clandestine1/Visual_Novel)
-
-### Approach Taken
-Before I even thought about what code I was going to use, I decided to use the agile method to plan my game. First I completed my wireframes which are shown in the next section. After I completed my wireframes I typed psuedo-code, shown below. 
->Power button, screen is black until power button is clicked, onclick event happens that turns on the computer
-
->Story screen with button that clicks next and moves to either more story or choices
-
->Choice buttons are event listeners that run a function that proceeds the story according by the choice button
-
->Set all the text up in HTML. Display all to none in CSS. In JavaScript call the text according to choice event listener using document get element by id. 
-
->Each choice button is linked to different get element by id function. Display none on every button not needed yet
-
->Sounds and images that are linked to onclick events
-
-After I completed my psuedo-code I brainstormed all the methods to accomplish my code. The method that I ended up picking was to load all my content in the document then manipulate it in the DOM using jQuery.
-
-###### Example
-```$(".next2").click(function(){
- 	$(".altText4").show();
- 	$(".altText3").hide();
- 	});
-
-
-### Project Wireframes
-![](http://imgur.com/FsupqZ2)
-![](http://imgur.com/3ImfLx9)
-![](http://imgur.com/5TGeeEx)
 
 ### Technologies Used
 -jQuery
@@ -61,3 +34,32 @@ After I completed my psuedo-code I brainstormed all the methods to accomplish my
 ### Unsolved Problems
 1.First image doesn't load on github.io
 1.I couldn't get all of my page to be responsive
+
+### Approach Taken
+Before I even thought about what code I was going to use, I decided to use the agile method to plan my game. First I completed my wireframes which are shown in the next section. After I completed my wireframes I typed psuedo-code, shown below. 
+
+>Power button, screen is black until power button is clicked, onclick event happens that turns on the computer
+
+>Story screen with button that clicks next and moves to either more story or choices
+
+>Choice buttons are event listeners that run a function that proceeds the story according by the choice button
+
+>Set all the text up in HTML. Display all to none in CSS. In JavaScript call the text according to choice event listener using document get element by id. 
+
+>Each choice button is linked to different get element by id function. Display none on every button not needed yet
+
+>Sounds and images that are linked to onclick events
+
+### Project Wireframes
+![](http://imgur.com/FsupqZ2)
+![](http://imgur.com/3ImfLx9)
+![](http://imgur.com/5TGeeEx)
+
+After I completed my psuedo-code I brainstormed all the methods to accomplish my code. The method that I ended up picking was to load all my content in the document then manipulate it in the DOM using jQuery.
+
+###### Example
+```$(".next2").click(function(){
+ 	$(".altText4").show();
+ 	$(".altText3").hide();
+ 	});
+
