@@ -14,7 +14,7 @@ To restart the game the player will have to click the start over button that app
 You dictate the fate of your overnight stay at Binary Assembly. Throughout the game you will be asked to make a choice- think carefully and maybe you'll make it out alive.
 
 ### Screenshot of Website
-![](http://imgur.com/YdQRHyV)
+![](Wireframes/website.png)
 
 [Link to Website](https://clandestine1.github.io/Visual_Novel/)
 
@@ -51,9 +51,9 @@ Before I even thought about what code I was going to use, I decided to use the a
 >Sounds and images that are linked to onclick events
 
 ### Project Wireframes
-![](http://imgur.com/FsupqZ2)
-![](http://imgur.com/3ImfLx9)
-![](http://imgur.com/5TGeeEx)
+![](Wireframes/w3.jpg)
+![](Wireframes/w2.jpg)
+![](Wireframes/w1.jpg)
 
 After I completed my psuedo-code I brainstormed all the methods to accomplish my code. The method that I ended up picking was to load all my content in the document then manipulate it in the DOM using jQuery.
 
