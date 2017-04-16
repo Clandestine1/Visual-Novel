@@ -7,8 +7,8 @@
 <link rel="stylesheet" type="text/css" href="style.css">
 <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=BioRhyme|Spirax" rel="stylesheet">
-<script src="main.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/jquery.typeit/4.4.0/typeit.min.js"></script>
 
 </head>
 <body>
@@ -38,6 +38,8 @@
 <img class="image16" src="Images/stairs.jpg">
 <img class="image17" src="Images/Freddy.gif">
 <img class="image18" src="Images/handy.gif">
+<img class="image19" src="Images/wifey.gif">
+<img class="image20" src="Images/bride.jpg">
 
 
 
@@ -50,7 +52,7 @@
 		<div class="altText"> 
 		You hesitate as you think about the rumors you've heard during your time here. You've heard many rumors ranging from random alien abduction to a crazed former student that stalks the halls at night. The point is- no one stays after closing. Tonight you're... 
 			<button id="choice1"> Staying </button> 
-			<button id="choice2"> Going Home </button> 
+			<button id="choice2"> Going Home </button>
 		</div>
 
 		<div class="altText2">
@@ -127,7 +129,23 @@
 
 		<div class="altText16">
 		 With trepidation you search the lobby. The elevator is still open but there is no sign of anyone else's presence. A menancing girl's voice whispers threats in your ear, freezing you in place with fear. The feeling of a clammy, cold hand on your shoulder gives you an adreniline boost that sends you running. It follows. 
-			<button class="next10">Next</button>
+		 	<button id="choice7"> Immediately Run Outside </button> 
+			<button id="choice8"> Get Your Project then Leave </button>
+		</div>
+
+		<div class="altText17">
+		  In a matter of life or death, you chose to forsake your project. With the exit in sight you feel your already frantic pace hasten. A ghostly nudge sends you falling down the remaing stairs with enough force to cause a concussion. When you awaken you find yourself in the embrace of the ghostly specter. Will you enjoy your life as the lover of a ghost? 
+			<button class="next10">Next</button>	
+		</div>
+
+		<div class="altText18">
+		  		BAD END
+			<button class="resets">Retry</button>	
+		</div>
+
+		<div class="altText19">
+		  		
+			<button class="next11">Next</button>	
 		</div>
  
 	 </div>	
@@ -178,10 +196,13 @@
 	<source src="Music/Girl.mp3" type="audio/mp3">
 </audio>
 
+<audio id="soundtrack7">
+	<source src="Music/waifu.mp3" type="audio/mp3">
+</audio>
+
 
 <script src="main.js"></script>
 <script src="game.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 
 </body>
 

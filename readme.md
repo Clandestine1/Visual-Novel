@@ -62,8 +62,10 @@ After I completed my psuedo-code I brainstormed all the methods to accomplish my
 
 ###### Example
 ```
-$(".next2").click(function(){
- 	$(".altText4").show();
- 	$(".altText3").hide();
+$("#choice4").click(function(){
+ 	$(".altText10").show();
+ 	$(".altText7").hide();
+ 	$(".image6").fadeIn(14000);
+ 	document.getElementById("soundtrack4").play(28000);
  	});
 

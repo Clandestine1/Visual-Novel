@@ -282,6 +282,32 @@ body {
 	display: none;
 }
 
+.altText18 {
+	position: absolute;
+	width: auto;
+	height: auto; 
+	z-index: 0;
+	color: #FFE6E6;
+	opacity: 1;
+	font-family:'Press Start 2P', cursive;
+	line-height: 150%;
+	font-size: 80px;
+	display: none;
+}
+
+.altText19 {
+	position: absolute;
+	width: auto;
+	height: auto; 
+	z-index: 0;
+	color: #FFE6E6;
+	opacity: 1;
+	font-family:'Press Start 2P', cursive;
+	line-height: 150%;
+	font-size: 20px;
+	display: none;
+}
+
 .next {
 	position: absolute;
 	top: 90%;
@@ -492,6 +518,27 @@ body {
   	z-index: 0;
 }
 
+.next11 {
+	position: absolute;
+	top: 90%;
+	right: 0;
+	background-color: #5D4B5C;
+    border: 5% black;
+    border-radius: 7px;
+    color: #EEDAEC;
+    margin-left: 4%;
+    margin-right: 4%;
+    text-align: center;
+    text-decoration: none;
+  	padding: 2px 44px 2px 44px;
+    font-size: 18px;
+ 	font-family: 'BioRhyme', serif;
+  	font-weight: bolder;
+  	box-shadow: 3px 3px 2px black;
+  	border: none;
+  	z-index: 0;
+}
+
 .resets {
 	position: absolute;
 	top: 90%;
@@ -619,6 +666,48 @@ body {
 }
 
 #choice6 {
+	position: absolute;
+	top: 108%;
+	right: 0;
+	background-color: #5D4B5C;
+    border: 5% black;
+    border-radius: 7px;
+    color: #EEDAEC;
+    margin-left: 4%;
+    margin-right: 4%;
+    text-align: center;
+    text-decoration: none;
+  	padding: 2px 44px 2px 44px;
+    font-size: 18px;
+ 	font-family: 'BioRhyme', serif;
+  	font-weight: bolder;
+  	box-shadow: 3px 3px 2px black;
+  	border: none;
+  	z-index: 0;
+}
+
+#choice7 {
+	position: absolute;
+	top: 108%;
+	left: 0;
+	background-color: #5D4B5C;
+    border: 5% black;
+    border-radius: 7px;
+    color: #EEDAEC;
+    margin-left: 4%;
+    margin-right: 4%;
+    text-align: center;
+    text-decoration: none;
+  	padding: 2px 44px 2px 44px;
+    font-size: 18px;
+ 	font-family: 'BioRhyme', serif;
+  	font-weight: bolder;
+  	box-shadow: 3px 3px 2px black;
+  	border: none;
+  	z-index: 0;
+}
+
+#choice8 {
 	position: absolute;
 	top: 108%;
 	right: 0;
@@ -903,6 +992,27 @@ body {
 	right: 0;
 	z-index: 90;
 	opacity: .4;
+	display: none;
+}
+
+.image19 {
+	position: absolute;
+	width: auto;
+	height: auto;
+	top: 0;
+	right: 0;
+	z-index: 0;
+	opacity: .8;
+	display: none;
+}
+
+.image20 {
+	position: absolute;
+	width: 1193px;
+	height: 528px;
+	top: 0;
+	right: 0;
+	z-index: 0;
 	display: none;
 }
 

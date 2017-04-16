@@ -11,7 +11,11 @@ $(document).ready(function(){
 $(".next").click(function(){
  	$(".altText").show();
  	$("#text").hide();
- 	});
+  /*$(".altText").typeIt({
+     speed: 10,
+     autoStart: false
+    }); */
+});
 
 $("#choice2").click(function(){
 	$(".altText3").show();
@@ -119,6 +123,27 @@ $("#choice5").click(function(){
  	$(".image18").slideUp(14000);
  	});
 
+$("#choice7").click(function(){
+ 	$(".altText17").show();
+ 	$(".altText16").hide();
+ 	$(".image16").fadeIn(4000);
+ 	$(".image18").hide()
+ 	$(".image19").fadeIn(14000);
+ 	document.getElementById("soundtrack7").play(24000);
+ 	});
+
+$(".next10").click(function(){
+	$(".altText18").show();
+ 	$(".altText17").hide();
+ 	$(".image20").fadeIn(4000);
+});
+
+$("#choice8").click(function(){
+ 	$(".altText19").show();
+ 	$(".altText16").hide();
+ 	
+ 	});
+
 //Sets volume of the audio
 document.getElementById("soundtrack").volume = 0.1;
 document.getElementById("soundtrack2").volume = 0.6;
@@ -126,4 +151,5 @@ document.getElementById("soundtrack3").volume = 1;
 document.getElementById("soundtrack4").volume = 1;
 document.getElementById("soundtrack5").volume = 0.8;
 document.getElementById("soundtrack6").volume = 0.7;
+document.getElementById("soundtrack7").volume = 0.8;
 });
