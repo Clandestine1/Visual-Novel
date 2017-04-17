@@ -19,7 +19,7 @@ You win by reaching the good ending. You lose by reaching any of the bad endings
 
 Headphones are required.
 
-### Screenshot of Website
+### Screenshot of Game
 ![](Wireframes/website.png)
 
 [Link to Website](https://clandestine1.github.io/Visual_Novel/)
@@ -33,12 +33,22 @@ Headphones are required.
 - JavaScript
 
 ### User Stories
-- Be able to use a retry button to restart the game after getting a bad ending
-- Have instructions accesible via the game 
-- Use ambient music and writing that will set the scary tone of the game
+- As a user I want to be able to use a retry button to restart the game after getting a bad ending
+- As a user I want to have instructions accesible via the game 
+- As a user I want ambient music and writing that will set the scary tone of the game
+- As a user I want to have a consitent webpage/game layout 
 
-### Unsolved Problems
+### Minimum Viable Product
+- Design game website using CSS & HTML
+- Have multiple endings 
+- Implement choices that set the game flow
+- Add images that set the story scene 
+
+
+### Problems
+I had no problems reaching MVP. Only minors problems arose after I coded beyond MVP.
 - I couldn't get all of my page to be responsive
+- Typing jQuery plugin wwasn't functional
 
 ### Approach Taken
 Before I even thought about what code I was going to use, I decided to use the agile method to plan my game. First I completed my wireframes which are shown in the next section. After I completed my wireframes I typed psuedo-code, shown below. 
