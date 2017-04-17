@@ -3,12 +3,12 @@ in on click and back off with another click */
 $(document).ready(function(){
     $("#powerUp").click(function(){
     $("#computerScreen").fadeToggle(4400);
-    });
+});
 
   /*All game assets are hidden until it is displayed via an onlick event. 
   Every choice is linked to a button that triggers the onclick event when pressed
   Buttons also are linked to images and sound to add to the game atmosphere*/ 
-$(".next").click(function(){
+    $(".next").click(function(){
  	$(".altText").show();
  	$("#text").hide();
   /*$(".altText").typeIt({
@@ -17,19 +17,19 @@ $(".next").click(function(){
     }); */
 });
 
-$("#choice2").click(function(){
+	$("#choice2").click(function(){
 	$(".altText3").show();
 	$(".altText").hide();
  	$(".image1").show();
  	$(".image3").hide();
-	});
+    });
 
-$(".next2").click(function(){
+	$(".next2").click(function(){
  	$(".altText4").show();
  	$(".altText3").hide();
  	});
 
-$(".next3").click(function(){
+	$(".next3").click(function(){
  	$(".altText5").show();
  	$(".altText4").hide();
  	document.getElementById("soundtrack2").play();
@@ -40,23 +40,23 @@ $(".next3").click(function(){
  	$(".image2").fadeOut(3000);
  	});
 
-$(".next4").click(function(){
+	$(".next4").click(function(){
  	$(".altText6").show();
  	$(".altText5").hide();
  	$(".image2").hide();
  	});
 
-$(".next5").click(function(){
+	$(".next5").click(function(){
  	$(".altText7").show();
  	$(".altText6").hide();
  	});
 
-$("#choice3").click(function(){
+	$("#choice3").click(function(){
  	$(".altText8").show();
  	$(".altText7").hide();
  	});
 
-$(".next6").click(function(){
+	$(".next6").click(function(){
  	$(".altText9").show();
  	$("#textBox").hide();
  	document.getElementById("soundtrack3").play(200);
@@ -65,14 +65,14 @@ $(".next6").click(function(){
  	$("#textBox").fadeIn(6400);
  	});
 
-$("#choice4").click(function(){
+	$("#choice4").click(function(){
  	$(".altText10").show();
  	$(".altText7").hide();
  	$(".image6").fadeIn(14000);
  	document.getElementById("soundtrack4").play(28000);
  	});
 
-$(".next7").click(function(){
+	$(".next7").click(function(){
  	$(".altText11").show();
  	$("#textBox").hide();
  	$(".image5").fadeIn(400);
@@ -81,17 +81,17 @@ $(".next7").click(function(){
  	$("#textBox").fadeIn(2800);
  	});	
 
-$("#choice1").click(function(){
+	$("#choice1").click(function(){
  	$(".altText12").show();
  	$(".altText").hide();
  	});
 
-$(".next8").click(function(){
+	$(".next8").click(function(){
  	$(".altText13").show();
  	$(".altText12").hide();
  	});
 
-$("#choice6").click(function(){
+	$("#choice6").click(function(){
  	$(".altText14").show();
  	$(".altText13").hide();
  	$(".image8").fadeIn(3000);
@@ -101,16 +101,16 @@ $("#choice6").click(function(){
  	document.getElementById("soundtrack5").play(4000);
  	});
 
-$(".next9").click(function(){
+	$(".next9").click(function(){
 	$(".altText15").show();
  	$(".altText14").hide();
  	$(".image7").fadeOut(2000);
  	$(".image13").fadeIn(2000);
  	$(".image17").show(6000);
  	$(".image17").slideUp(6000);
-});
+	});
 
-$("#choice5").click(function(){
+	$("#choice5").click(function(){
  	$(".altText16").show();
  	$(".altText13").hide();
  	$(".image12").fadeIn(2000);
@@ -123,7 +123,7 @@ $("#choice5").click(function(){
  	$(".image18").slideUp(14000);
  	});
 
-$("#choice7").click(function(){
+	$("#choice7").click(function(){
  	$(".altText17").show();
  	$(".altText16").hide();
  	$(".image16").fadeIn(4000);
@@ -132,36 +132,36 @@ $("#choice7").click(function(){
  	document.getElementById("soundtrack7").play(24000);
  	});
 
-$(".next10").click(function(){
+	$(".next10").click(function(){
 	$(".altText18").show();
  	$(".altText17").hide();
  	$(".image20").fadeIn(4000);
-});
+	});
 
-$("#choice8").click(function(){
+	$("#choice8").click(function(){
  	$(".altText19").show();
  	$(".altText16").hide();
  	document.getElementById("soundtrack8").play(8000);
  	$(".image11").fadeIn(4000);
  	$(".image11").fadeOut(9000);
  	$(".image15").fadeIn(9000);
-});
+	});
 
-$(".next11").click(function(){
+	$(".next11").click(function(){
 	$(".altText20").show();
  	$(".altText19").hide();
  	$(".image22").fadeIn(4000);
  	document.getElementById("soundtrack9").play(1000);
-});
+	});
 
-$(".next12").click(function(){
+	$(".next12").click(function(){
 	$(".altText21").show();
  	$(".altText20").hide();
  	$(".image22").hide(2000);
  	$(".image23").fadeIn(2000);
  	$("#textBox").fadeIn(9400);
  	document.getElementById("soundtrack10").play(2000);
-});
+	});
 
 //Sets volume of the audio
 document.getElementById("soundtrack").volume = 0.1;
