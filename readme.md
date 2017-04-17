@@ -22,7 +22,7 @@ Headphones are required.
 ### Screenshot of Game
 ![](Wireframes/website.png)
 
-[Link to Website](https://clandestine1.github.io/Visual_Novel/)
+[Link to Game](https://clandestine1.github.io/Visual_Novel/)
 
 [Link to Repository](https://github.com/Clandestine1/Visual_Novel)
 
