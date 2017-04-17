@@ -28,7 +28,7 @@ body {
 	width: 1192.6px;
 	height: 527.6px;
 	position: absolute;
-
+	display: none;
 	bottom:17.6%;
 	left: 3.1%;
 }
