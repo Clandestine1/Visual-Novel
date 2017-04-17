@@ -119,15 +119,15 @@ $(document).ready(function(){
  	$(".image10").fadeOut(9000);
  	$(".image9").fadeIn(9000);
  	document.getElementById("soundtrack6").play(24000);
- 	$(".image18").fadeIn(9000);
- 	$(".image18").slideUp(14000);
+ 	/*$(".image18").fadeIn(9000);
+ 	$(".image18").slideUp(14000);*/
  	});
 
 	$("#choice7").click(function(){
  	$(".altText17").show();
  	$(".altText16").hide();
  	$(".image16").fadeIn(4000);
- 	$(".image18").hide()
+ 	/*$(".image18").hide()*/
  	$(".image19").fadeIn(14000);
  	document.getElementById("soundtrack7").play(24000);
  	});
