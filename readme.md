@@ -11,7 +11,7 @@ To restart the game the player will have to click the start over button that app
 :fire::fire::fire::fire:
 
 ### Game Instructions
-You dictate the fate of your overnight stay at Binary Assembly. Throughout the game you will be asked to make a choice- think carefully and maybe you'll make it out alive.
+You dictate the fate of your overnight stay at Binary Assembly. Throughout the game you will be asked to make a choice- think carefully and maybe you'll make it out alive. To begin, all you need to do is press 'Power'.
 
 There is one way to win, several ways to lose.
 
